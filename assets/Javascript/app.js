@@ -1,18 +1,26 @@
+
+//-----Styling of the page  ----------//
+document.body.style.backgroundImage = "url('https://i.ytimg.com/vi/YqQDg-lPSnQ/maxresdefault.jpg')";
+
+
+//-----------------------Start Game Button Function-----------------------------//
 $('#start').on('click',function(){
-    for(var i=0;i<questions.length;i++){ // 1st quest 
-        $('#startButton').append('<h2>' + questions[i].question+'</h2>')
-        for(var j=0;j<questions[i].answers.length;j++){
-            $("#startButton").append("<input type='radio' name='question-"+i+"' value='"+questions[i].answers[j]+"'><p>" + questions[i].answers[j]+ "</p>")
-        }  
-    }
-})
-// questions for the quiz //
+    run();
+        $('#questions').prepend('<h2>' + questions[round].question+'</h2>')
+        for(var j=0;j<questions[round].answers.length;j++){
+            var radioBtn = ("<input type='radio' value="+[j]+"><p>"+ questions[round].answers[j]+ "</p>")
+            radioBtn.appendTo('#questions')
+        } 
+    })
+
+// ----------------------  questions for the quiz -------------------------//
+var round = 0;
 var questions = [{
         question : "Nintendo is the Japanese word meaning..", 
         answers : [ "Fun Television Gamme", "Too much excitement", "Fun home entertainment", "Leave luck to heaven" ],
         correctAnswer : "Leave Luck to Heaven"
-    }, {
-        question : "Kenji Yamamoto composed all these games except..", 
+    }, {        
+question : "Kenji Yamamoto composed all these games except..", 
         answers : [ "Mike Tyson's Punch-Out!!", "Super Smash Bros.", "Super Metroid", "Super Mario Bros." ],
         correctAnswer : "Super Mario Bros."
     }, {
@@ -49,11 +57,14 @@ var questions = [{
         correctAnswer : "Correct! 40 hours is Approximate and usually will take more if you can resist the awesome side missions"
     }];
 
-    $("#startButton").on("click", run);
+    //------------------TIMER FUNCTION------------------//
+
+    var number = 25;
+    var timer;
 
       function run() {
-      clearInterval(intervalId);
-      intervalId = setInterval(decrement, 25000);
+      clearInterval(timer);
+      timer = setInterval(decrement, 1000);
     }
 
     function decrement() {
@@ -66,11 +77,11 @@ var questions = [{
       }
     }
     function stop() {
-      clearInterval(intervalId);
+      clearInterval(timer);
     }
 
-    run();
 
 
 
-document.body.style.backgroundImage = "url('https://r3.whistleout.com/public/images/articles/2017/05/Missouri.png')";
+
+    
