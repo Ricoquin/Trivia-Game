@@ -38,7 +38,8 @@ question : "Kenji Yamamoto composed all these games except..",
     }, {
         question : "When was the first Call of Duty title released?", 
         answers : [ "December 1, 2003", "November 14 2003", "October 29, 2003", "July 18, 2004" ],
-        correctAnswer : "October 29, 2003. Most games are relased late November through Early December"
+        correctnswer : "October 29, 2003",
+        sideNote: "Most games are relased late November through Early December"
     }, {
         question : "Most played game in the worldwide is ..", 
         answers : [ "Fortnite", "Minecraft", "World of Warcraft", "League of Legends" ],
@@ -61,8 +62,15 @@ question : "Kenji Yamamoto composed all these games except..",
 
     var number = 25;
     var timer;
+    var game = {
+        correct = 0,
+        incorrect = 0,
+        counter = 120;
 
-      function run() {
+
+    }
+
+     run: function() {
       clearInterval(timer);
       timer = setInterval(decrement, 1000);
     }
