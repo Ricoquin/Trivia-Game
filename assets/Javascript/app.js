@@ -1,15 +1,3 @@
-//-----------------------Start Game Button Function-----------------------------//
-// $('#start').on('click',function(){
-//     run();
-//         $('#questions').prepend('<h2>' + questions[round].question+'</h2>')
-//         for(var j=0;j<questions[round].answers.length;j++){
-//             var radioBtn = ("<input type='radio' value="+[j]+"><p>"+ questions[round].answers[j]+ "</p>")
-//             radioBtn.appendTo('#questions')
-//         } 
-//     })
-
-// ----------------------  questions for the quiz -------------------------//
-
 var card = $("#quiz-area");
 var countStartNumber = 30;
 
@@ -154,8 +142,8 @@ var game = {
 
     clearInterval(timer);
 
-    card.html("<h2>Nope!</h2>");
-    card.append("<h3>The Correct Answer was: " + questions[game.currentQuestion].correctAnswer + "</h3>");
+    card.html("<h2>Ohhhh, Close. Try Again ! </h2>");
+    card.append("<h3>Should have picked this one : " + questions[game.currentQuestion].correctAnswer + "</h3>");
     card.append("<img src='" + questions[game.currentQuestion].image + "' />");
 
     if (game.currentQuestion === questions.length - 1) {
@@ -192,6 +180,7 @@ var game = {
   }
 };
 
+
 // CLICK EVENTS
 
 $(document).on("click", "#start-over", function() {
@@ -203,7 +192,7 @@ $(document).on("click", ".answer-button", function(e) {
 });
 
 $(document).on("click", "#start", function() {
-  $("#sub-wrapper").prepend("<h2>Time Remaining: <span id='counter-number'>30</span> Seconds</h2>");
+  $("#sub-wrapper").prepend("<h2>Time Remaining: <span id='counter-number'>10</span> Seconds</h2>");
   game.loadQuestion();
 });
 
