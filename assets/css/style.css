@@ -1,0 +1,104 @@
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  background-image: url("https://i.ytimg.com/vi/YqQDg-lPSnQ/maxresdefault.jpg")   opacity(0.5
+  filter), alpha(opacity=50);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#wrapper {
+  text-align: center;
+  width: 800px;
+  min-height: 50%;
+  box-sizing: border-box;
+  padding: 5% 0;
+  margin: 5% auto;
+  /* background-color: grey; */
+}
+
+.blinking{
+	animation:blinkingText .9s infinite;
+}
+@keyframes blinkingText{
+	0%{		color:white, rgb(251, 255, 44);}
+	100%{	color: transparent;	}
+	100%{	color: transparent;	}
+    100%{	color: transparent;	}
+    100%{	color:rgb(255, 255, 255);	}
+}
+
+#sub-wrapper {
+  position: relative;
+  top: 20%;
+  margin-left: 0;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  font-size: 35px;
+}
+
+button {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #ddd;
+    border: none;
+    color: rgb(34, 206, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 50%;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-family: 'Press Start 2P', cursive;  font-size: 4.5em;
+  font-weight: bold;
+  color: rgb(13, 255, 0);
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+
+p {
+    font-family: 'Press Start 2P', cursive;    
+    font-size: 1.5em;
+    color: red;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+#start {
+    margin-left: 0%;
+    margin-top: 10%;
+    background: rgb(4, 13, 177);
+    border: 2px solid white;
+}
+
+#quiz-area h2 {
+  margin-top: 50px;
+}
+
+button:hover {
+  background: rgb(19, 0, 229);
+  border: 2px solid white;
+}
+
+#counter-number {
+    color:black;
+    font-stretch: expanded;
+}
