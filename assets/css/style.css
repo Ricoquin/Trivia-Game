@@ -6,11 +6,12 @@ body {
 
 body {
   text-align: center;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQspufFbEDAGI4nyY9UZHto3G9ezZVNB1N3Wvfzhd4YYDi5dmGnOw&s");   
+  background-image: url("https://www.nextlevelgaming.ca/wp-content/uploads/2018/02/Arcade.jpg");   
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-size: 100% 100%;
 }
 
 #wrapper {
