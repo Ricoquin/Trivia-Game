@@ -6,9 +6,7 @@ body {
 
 body {
   text-align: center;
-  background-image: url("https://i.ytimg.com/vi/YqQDg-lPSnQ/maxresdefault.jpg");   
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQspufFbEDAGI4nyY9UZHto3G9ezZVNB1N3Wvfzhd4YYDi5dmGnOw&s");   
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -38,9 +36,10 @@ body {
 
 #sub-wrapper {
   position: relative;
+  text-shadow: 2px 2px 8px #FF0000;
   top: 20%;
   margin-left: 0;
-  color: rgb(255, 0, 0);
+  color: limegreen;
   font-weight: bold;
   font-size: 35px;
 }
@@ -49,7 +48,7 @@ button {
     font-family: 'Press Start 2P', cursive;
     background-color: #ddd;
     border: none;
-    color: rgb(34, 206, 0);
+    color: red;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -58,6 +57,7 @@ button {
     cursor: pointer;
     border-radius: 16px;
     width: 50%;
+    text-shadow: 2px 2px 8px #FF0000;
 }
 
 h1 {
@@ -65,6 +65,7 @@ h1 {
   font-family: 'Press Start 2P', cursive;  font-size: 4.5em;
   font-weight: bold;
   color: rgb(13, 255, 0);
+  text-shadow: 2px 2px 8px #FF0000;
 }
 
 h2 {
@@ -75,7 +76,8 @@ h2 {
 p {
     font-family: 'Press Start 2P', cursive;    
     font-size: 1.5em;
-    color: red;
+    color: limegreen;
+    text-shadow: 2px 2px 8px #FF0000;
 }
 
 h3 {
@@ -88,6 +90,7 @@ h3 {
     margin-top: 10%;
     background: rgb(4, 13, 177);
     border: 2px solid white;
+    text-shadow: 2px 2px 8px #FF0000;
 }
 
 #quiz-area h2 {
@@ -97,9 +100,11 @@ h3 {
 button:hover {
   background: rgb(19, 0, 229);
   border: 2px solid white;
+  text-shadow: 2px 2px 8px #FF0000;
 }
 
 #counter-number {
-    color:black;
+    color:limegreen;
     font-stretch: expanded;
+    text-shadow: 2px 2px 8px #FF0000;
 }

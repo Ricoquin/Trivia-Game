@@ -3,7 +3,7 @@ var countStartNumber = 30;
 
 var questions = [{
     question: "Nintendo is the Japanese word meaning..",
-    answers: ["Fun Television Gamme", "Too much excitement", "Fun home entertainment", "Leave luck to heaven"],
+    answers: ["Fun Television Game", "Too much excitement", "Fun home entertainment", "Leave luck to heaven"],
     correctAnswer: "Leave luck to heaven",
     image:"images/nintendoGIF.gif"
 }, {
