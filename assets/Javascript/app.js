@@ -1,5 +1,5 @@
 var card = $("#quiz-area");
-var countStartNumber = 10;
+var countStartNumber = 15;
 
 var questions = [{
     question: "Nintendo is the Japanese word meaning..",
@@ -31,7 +31,7 @@ var questions = [{
     answers: ["December 1, 2003", "November 14 2003", "October 29, 2003", "July 18, 2004"],
     correctnswer: "October 29, 2003",
     image:"images/CodGIF.gif"
-    // sideNote: "Most games are relased late November through Early December"
+  
 }, {
     question: "Most played game in the worldwide is ..",
     answers: ["Fortnite", "Minecraft", "World of Warcraft", "League of Legends"],
@@ -181,9 +181,9 @@ var game = {
   }
 };
 
-// $(document).on("click", "#start-over", function() {
-//   game.reset();
-// });
+$(document).on("click", "#start-over", function() {
+  game.reset();
+});
 
 $(document).on("click", ".answer-button", function(e) {
   game.clicked(e);
