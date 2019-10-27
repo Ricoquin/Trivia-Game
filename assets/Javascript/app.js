@@ -137,12 +137,12 @@ var game = {
   },
 
   answeredIncorrectly: function() {
-
+     
     game.incorrect++;
 
     clearInterval(timer);
 
-    card.html("<h2>Ohhhh, Close. Try Again ! </h2>");
+    card.html("<h2>Ohhhh, So Close! </h2>");
     card.append("<h3>Should have picked this one : " + questions[game.currentQuestion].correctAnswer + "</h3>");
     card.append("<img src='" + questions[game.currentQuestion].image + "' />");
 

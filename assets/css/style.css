@@ -6,8 +6,9 @@ body {
 
 body {
   text-align: center;
-  background-image: url("https://i.ytimg.com/vi/YqQDg-lPSnQ/maxresdefault.jpg")   opacity(0.5
-  filter), alpha(opacity=50);
+  background-image: url("https://i.ytimg.com/vi/YqQDg-lPSnQ/maxresdefault.jpg");   
+  opacity: 0.5;
+  filter: alpha(opacity=50);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
