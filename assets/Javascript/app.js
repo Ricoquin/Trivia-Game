@@ -1,5 +1,5 @@
 var card = $("#quiz-area");
-var countStartNumber = 30;
+var countStartNumber = 10;
 
 var questions = [{
     question: "Nintendo is the Japanese word meaning..",
@@ -53,6 +53,7 @@ var questions = [{
     correctAnswer: "40 hours",
     image:"images/Div2GIF.webp"
 }];
+
 
 //------------------TIMER FUNCTION------------------//
 

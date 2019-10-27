@@ -6,8 +6,8 @@ body {
 
 body {
   text-align: center;
-  background-image: url("https://www.nextlevelgaming.ca/wp-content/uploads/2018/02/Arcade.jpg");   
   height: 100%;
+  background-image: url("https://www.nextlevelgaming.ca/wp-content/uploads/2018/02/Arcade.jpg");   
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,12 +15,11 @@ body {
 }
 
 #wrapper {
-  text-align: center;
-  width: 800px;
-  min-height: 100%;
-  box-sizing: border-box;
-  padding: 5% 0;
-  margin: 5% auto;
+  /* background-image: url("https://www.nextlevelgaming.ca/wp-content/uploads/2018/02/Arcade.jpg");   
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%; */
 }
 
 .blinking{
