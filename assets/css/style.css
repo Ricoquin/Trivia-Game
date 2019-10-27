@@ -1,12 +1,9 @@
 
-html,
-body {
-  height: 100%;
-}
+html{
+    height: 100%;
+    background-size: cover;
 
-audio { 
-    display:none;
- }
+}
 
 body {
   text-align: center;
@@ -16,6 +13,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-size: 100% 100%;
+}
+
+audio { 
+    display:none;
 }
 
 .blinking{
