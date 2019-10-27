@@ -14,14 +14,6 @@ body {
   background-size: 100% 100%;
 }
 
-#wrapper {
-  /* background-image: url("https://www.nextlevelgaming.ca/wp-content/uploads/2018/02/Arcade.jpg");   
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-size: 100% 100%; */
-}
-
 .blinking{
 	animation:blinkingText .9s infinite;
 }
