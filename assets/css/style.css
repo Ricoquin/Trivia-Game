@@ -4,6 +4,10 @@ body {
   height: 100%;
 }
 
+audio { 
+    display:none;
+ }
+
 body {
   text-align: center;
   height: 100%;
@@ -52,11 +56,12 @@ button {
 }
 
 h1 {
-  margin-bottom: 50px;
-  font-family: 'Press Start 2P', cursive;  font-size: 4.5em;
-  font-weight: bold;
-  color: rgb(13, 255, 0);
-  text-shadow: 2px 2px 8px #FF0000;
+    position: relative;
+    margin-top: 50px;
+    font-family: 'Press Start 2P', cursive;  font-size: 4.5em;
+    font-weight: bold;
+    color: rgb(13, 255, 0);
+    text-shadow: 2px 2px 8px #FF0000;
 }
 
 h2 {
