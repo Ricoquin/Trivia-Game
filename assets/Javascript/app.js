@@ -180,12 +180,9 @@ var game = {
   }
 };
 
-
-// CLICK EVENTS
-
-$(document).on("click", "#start-over", function() {
-  game.reset();
-});
+// $(document).on("click", "#start-over", function() {
+//   game.reset();
+// });
 
 $(document).on("click", ".answer-button", function(e) {
   game.clicked(e);
