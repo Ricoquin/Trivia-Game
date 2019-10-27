@@ -17,53 +17,53 @@ var questions = [{
     question: "Nintendo is the Japanese word meaning..",
     answers: ["Fun Television Gamme", "Too much excitement", "Fun home entertainment", "Leave luck to heaven"],
     correctAnswer: "Leave luck to heaven",
-    image:""
+    image:"images/nintendoGIF.gif"
 }, {
     question: "Kenji Yamamoto composed all these games except..",
     answers: ["Mike Tyson's Punch-Out!!", "Super Smash Bros.", "Super Metroid", "Super Mario Bros."],
     correctAnswer: "Super Mario Bros.",
-    image:""
+    image:"images/SuperMarioGIF.gif"
 }, {
     question: "The most common species in World of Warcraft is ",
     answers: ["Orcs", "Humans", "Night Elves", "dwarves"],
     correctAnswer: "Humans",
-    image:""
+    image:"images/wowHumanGIF.gif"
 }, {
     question: "Who has a appeard on the most covers for EA Sports Fifa.. ",
     answers: ["Lionel Messi", "Cristiano Rinaldo", "Wayne Rooney", "Landon Donovan"],
     correctAnswer: "Wayne Rooney",
-    image:""
+    image:"images/wayneRooneyGIF.gif"
 }, {
     question: "In Uncharted's series who was his sidekick and close friend ?",
     answers: ["Harry Flynn", "Elena Fisher", "Victor Sullivan", "Charlie Cutter"],
     correctAnswer: "Victor Sullivan",
-    image:""
+    image:"images/victorSullivanGIF.gif"
 }, {
     question: "When was the first Call of Duty title released?",
     answers: ["December 1, 2003", "November 14 2003", "October 29, 2003", "July 18, 2004"],
     correctnswer: "October 29, 2003",
-    image:""
+    image:"images/CodGIF.gif"
     // sideNote: "Most games are relased late November through Early December"
 }, {
     question: "Most played game in the worldwide is ..",
     answers: ["Fortnite", "Minecraft", "World of Warcraft", "League of Legends"],
     correctAnswer: "League of Legends",
-    image:""
+    image:"images/lolGIF.gif"
 }, {
     question: "Most played gaming console in the world",
     answers: ["Android Apps", "Playstation 4", "PC", "Nintendo Switch"],
-    correctAnswer: "Correct! PC is the most played console, obvious right ?",
-    image:""
+    correctAnswer: "PC",
+    image:"images/gamingpcGIF.gif"
 }, {
     question: "Highest grossed revenue made by what game ?",
     answers: ["PlayerUnknown's Battlegrounds", "FIFA 18", "Grand Theft Auto V", "Call of Duty: Black Ops IIII"],
-    correctAnswer: "Correct! PlayerUnknown's Battlegrounds, Bluehole  at a WHOPPING $1.028 billion",
-    image:""
+    correctAnswer: "PlayerUnknown's Battlegrounds",
+    image:"images/pubgGIF.gif"
 }, {
     question: "The Division 2 sequal to Tom Clancy's The Division can be finished in how many hours? ",
     answers: ["35 hours", "65 hours", "40 hours", "80 hours"],
-    correctAnswer: "Correct! 40 hours is Approximate and usually will take more if you can resist the awesome side missions",
-    image:""
+    correctAnswer: "40 hours",
+    image:"images/Div2GIF.webp"
 }];
 
 //------------------TIMER FUNCTION------------------//
