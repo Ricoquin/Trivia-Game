@@ -1,80 +1,80 @@
-
-html{
-    height: 100%;
-    background-size: cover;
-
+html {
+  height: 100%;
+  background-size: cover;
+  position: relative;
 }
 
 body {
   text-align: center;
   height: 100%;
-  background-image: url("https://www.nextlevelgaming.ca/wp-content/uploads/2018/02/Arcade.jpg");   
+  background-image: url('https://www.nextlevelgaming.ca/wp-content/uploads/2018/02/Arcade.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
-audio { 
-    display:none;
+main {
+  padding-top: 300px;
+  text-align: center;
 }
 
-.blinking{
-	animation:blinkingText .9s infinite;
+audio {
+  display: none;
 }
-@keyframes blinkingText{
-	0%{		color:white, rgb(251, 255, 44);}
-	100%{	color: transparent;	}
-	100%{	color: transparent;	}
-    100%{	color: transparent;	}
-    100%{	color:rgb(255, 255, 255);	}
+
+.blinking {
+  animation: blinkingText 0.9s infinite;
+}
+@keyframes blinkingText {
+  0% {
+    color: white, rgb(251, 255, 44);
+  }
+  100% {
+    color: transparent;
+  }
+  100% {
+    color: transparent;
+  }
+  100% {
+    color: transparent;
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
 }
 
 #sub-wrapper {
   position: relative;
-  text-shadow: 2px 2px 8px #FF0000;
+  text-shadow: 2px 2px 8px limegreen;
   top: 20%;
   margin-left: 0;
-  color: limegreen;
   font-weight: bold;
   font-size: 35px;
-}
-
-button {
-    font-family: 'Press Start 2P', cursive;
-    background-color: #ddd;
-    border: none;
-    color: red;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 16px;
-    width: 50%;
-    text-shadow: 2px 2px 8px #FF0000;
+  text-shadow: 2px 2px 8p black;
+  color: white;
 }
 
 h1 {
-    position: relative;
-    margin-top: 50px;
-    font-family: 'Press Start 2P', cursive;  font-size: 4.5em;
-    font-weight: bold;
-    color: rgb(13, 255, 0);
-    text-shadow: 2px 2px 8px #FF0000;
+  position: relative;
+  margin-top: 50px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 7em;
+  font-weight: bold;
+  color: rgb(13, 255, 0);
+  text-shadow: 2px 2px 8px limegreen;
 }
 
 h2 {
   margin-bottom: 25px;
-  font-size: 35px;
+  font-size: 45px;
 }
 
 p {
-    font-family: 'Press Start 2P', cursive;    
-    font-size: 1.5em;
-    color: limegreen;
-    text-shadow: 2px 2px 8px #FF0000;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.5em;
+  border: 2px solid limegreen;
+  text-shadow: 2px 2px 8p limegreen;
 }
 
 h3 {
@@ -83,25 +83,51 @@ h3 {
 }
 
 #start {
-    margin-left: 0%;
-    margin-top: 10%;
-    background: rgb(4, 13, 177);
-    border: 2px solid white;
-    text-shadow: 2px 2px 8px #FF0000;
+  position: relative;
+  margin-left: 0%;
+  margin-top: 10%;
+  border: 2px solid limegreen;
+  text-shadow: 2px 2px 8p limegreen;
 }
 
 #quiz-area h2 {
   margin-top: 50px;
+  text-align: center;
+}
+
+button {
+  position: relative;
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  color: whitesmoke;
+  padding: 20px 100px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 6px 4px;
+  border-radius: 16px;
+  box-shadow: 1px 1px 10px limegreen;
+  width: 20%;
+  text-shadow: 2px 2px 8px limegreen;
+  font-size: 15px;
+  line-height: 20px;
+}
+button#start-over {
+  position: relative;
+  background-color: black;
+  box-shadow: 1px 1px 10px limegreen;
+  text-shadow: 2px 2px 8px limegreen;
 }
 
 button:hover {
-  background: rgb(19, 0, 229);
+  background: limegreen;
   border: 2px solid white;
-  text-shadow: 2px 2px 8px #FF0000;
+  text-shadow: 2px 2px 8px limegreen;
+  font-size: 15px;
 }
 
 #counter-number {
-    color:limegreen;
-    font-stretch: expanded;
-    text-shadow: 2px 2px 8px #FF0000;
+  color: limegreen;
+  font-stretch: expanded;
+  text-shadow: 2px 2px 8p limegreen;
+  font-size: 60px;
 }
