@@ -1,4 +1,7 @@
 * {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
 }
 
 html {
@@ -27,7 +30,7 @@ body {
 }
 
 main {
-  padding-top: 100px;
+  padding-top: 250px;
   text-align: center;
 }
 
