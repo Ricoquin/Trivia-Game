@@ -26,9 +26,7 @@ html {
 }
 
 body {
-  background-image: url('/images/ArcadeJPEG.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: Black;
 }
 
 main {
